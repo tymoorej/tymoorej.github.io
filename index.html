@@ -28,19 +28,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('test.png');
+    background-image: url('background1.png');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("test.png");
+    background-image: url("background2.png");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("test.png");
+    background-image: url("background3.png");
     min-height: 400px;
 }
 
@@ -55,6 +55,7 @@ body, html {
 }
 .darken_icons{
     color: black;
+    font-weight: bold;
 }
 
 </style>
@@ -65,10 +66,10 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button darken_icons"><b>HOME</b></a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small darken_icons"><i class="fa fa-user"></i> <b>ABOUT</b></a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small darken_icons"><i class="fa fa-th"></i> <b>PORTFOLIO</b></a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small darken_icons"><i class="fa fa-envelope"></i> <b>CONTACT</b></a>
+    <a href="#home" class="w3-bar-item w3-button darken_icons"> HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small darken_icons"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small darken_icons"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small darken_icons"><i class="fa fa-envelope"></i> CONTACT</a>
     <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red darken_icons">
       <i class="fa fa-search"></i>
     </a> -->
@@ -147,7 +148,7 @@ body, html {
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-black w3-wide">PORTFOLIO</span>
   </div>
 </div>
 
@@ -158,40 +159,7 @@ body, html {
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  <a href="https://github.com/tymoorej" target="_blank"><img src="github.png"></a>
   </div>
 </div>
 
